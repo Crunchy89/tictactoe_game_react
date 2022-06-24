@@ -105,6 +105,7 @@ function Board() {
     setX([])
     setWinX(0)
     setWinY(0)
+    setDisable(false)
   }
   return (
     <div style={containerStyle} className="gameBoard">
