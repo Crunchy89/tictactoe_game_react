@@ -12,7 +12,7 @@ const squareStyle = {
   'justifyContent': 'center',
   'alignItems': 'center',
   'fontSize': '20px',
-  'color': 'white'
+  'color': 'black'
 }
 
 const boardStyle = {
@@ -54,6 +54,7 @@ function Square(props) {
       className="square"
       style={squareStyle}
       onClick={!props.disable ? ()=>props.onClick(props.index) : ()=>{}}
+
       >
       {props.text}
     </div>
